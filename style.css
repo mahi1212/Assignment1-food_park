@@ -5,6 +5,37 @@
     font-family: 'Roboto', sans-serif;
 }
 
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 4rem;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+    font-weight: 600;
+    padding: 20px;
+}
+
+nav ul li a:hover{
+    background-color: rgb(161, 77, 221);
+    border: none;
+    border-radius: 5px;
+}
+
+#logo{
+    font-size: 2rem;
+    font-weight: 900;
+}
+
 .container{
     padding: 5rem;
     display: flex;
@@ -63,7 +94,7 @@
 
 /* about starts here */
 
-.about-me{
+#about-me{
     background-image: url(images/bg-2.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -72,12 +103,10 @@
     width: 100%;
 }
 
-.about-me .left-part img{
+#about-me .left-part img{
     width: 350px;
     height: 600px;
-    position: absolute;
-    top: 55.7rem;
-    left: 12rem;
+    margin: 55px 0 0 150px;
 }
 
 .heading {
@@ -86,7 +115,7 @@
     margin: 2rem 0;
 }
 
-.about-me p{
+#about-me p{
     margin-bottom: 5rem;
     width: 500px;
 }
